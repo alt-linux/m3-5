@@ -1,0 +1,5 @@
+apt-get install cups cups-pdf -y
+rm -rf /etc/cups/cupsd.conf
+cp /down/cupsd.conf1 /etc/cups/cupsd.conf -y
+systemctl restart cups
+echo "https://hq-srv.au-team.irpo:631 Administrirovanie Login=root Password=toor"
