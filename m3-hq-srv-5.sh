@@ -1,2 +1,6 @@
-echo "apt-get install cups cups-pdf -y && rm -rf /etc/cups/cupsd.conf && cp /down/cupsd.conf1 /etc/cups/cupsd.conf && systemctl restart cups"
-echo "https://hq-srv.au-team.irpo:631 Administrirovanie Login=root Password=toor"
+echo "apt-get install cups cups-pdf -y" 
+echo " rm -rf /etc/cups/cupsd.conf"
+echo " cp /down/cupsd.conf1 /etc/cups/cupsd.conf"
+echo "nano /etc/cups/cupsd.conf"
+echo "systemctl restart cups"
+echo " https://hq-srv.au-team.irpo:631 Administrirovanie Login=root Password=toor"
